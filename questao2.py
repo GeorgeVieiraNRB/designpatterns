@@ -1,3 +1,4 @@
+
 def fib(x):
     if x==0 or x==1:
         return 1
@@ -9,7 +10,7 @@ def verify(z):
     k=0
     while k<z:
         k=fib(cont)
-        print(k)
+        print(k,end=' ')
         if k==z:
             flag=True
             break
